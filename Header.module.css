@@ -1,0 +1,57 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-height: 15vw;
+  height: 8vw;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 90%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  /* background: linear-gradient(to top, #481e14 50%, #0a6847 60%); */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+}
+.containerManu {
+  width: 80%;
+}
+.scrollClass {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-height: 15vw;
+  height: 8vw;
+  background-color: #fff;
+}
+.menuLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+.link {
+  font-size: 1.2vw;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.9s;
+  color: #557a46;
+}
+
+.link:hover {
+  color: #481e14;
+  transition: 0.9s;
+}
